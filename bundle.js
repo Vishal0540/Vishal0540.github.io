@@ -20,13 +20,14 @@ var scrollUp = function scrollUp() {
 var btnTheme = document.querySelector('.fa-moon');
 
 var addThemeClass = function addThemeClass(bodyClass, btnClass) {
-  document.body.classList.add(bodyClass);
-  btnTheme.classList.add(btnClass);
+  document.body.classList.add('body-dark');
+  btnTheme.classList.add('fa-sun');
 };
 
 var isDark = function isDark() {
   return document.body.classList.contains('body-dark');
-};
+}; // console.log(isDark)
+
 
 var setTheme = function setTheme(bodyClass, btnClass) {
   document.body.classList.remove(localStorage.getItem('class-body-theme'));
