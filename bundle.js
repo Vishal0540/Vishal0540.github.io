@@ -1,8 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-var __webpack_exports__ = {};
 
-;// CONCATENATED MODULE: ./src/modules/scroll.js
+;// ./src/modules/scroll.js
 var scrollUp = function scrollUp() {
   var btnScrollUp = document.querySelector('.scroll-up');
 
@@ -16,7 +15,7 @@ var scrollUp = function scrollUp() {
 /* harmony default export */ const modules_scroll = ({
   scrollUp: scrollUp
 });
-;// CONCATENATED MODULE: ./src/modules/toggleTheme.js
+;// ./src/modules/toggleTheme.js
 var btnTheme = document.querySelector('.fa-moon');
 
 var addThemeClass = function addThemeClass(bodyClass, btnClass) {
@@ -42,7 +41,7 @@ var toggleTheme = function toggleTheme() {
 };
 
 
-;// CONCATENATED MODULE: ./src/modules/displayList.js
+;// ./src/modules/displayList.js
 var btnHamburger = document.querySelector('.fa-bars');
 
 var displayList = function displayList() {
@@ -60,7 +59,7 @@ var displayList = function displayList() {
 };
 
 /* harmony default export */ const modules_displayList = (displayList);
-;// CONCATENATED MODULE: ./src/index.js
+;// ./src/index.js
 
 
 
